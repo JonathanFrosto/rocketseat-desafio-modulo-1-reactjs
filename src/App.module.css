@@ -1,0 +1,74 @@
+.wrapper {
+    max-width: 736px;
+    margin: -2.7rem auto;
+}
+
+.wrapper form {
+    display: flex;
+    gap: 8px;
+}
+
+.infoBox {
+    margin-top: 6.4rem;
+}
+
+.infoBox  header {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 1.4rem;
+}
+
+.infoBox header div {
+    display: flex;
+    gap: 8px;
+}
+
+.infoBox header div span {
+    width: 2.5rem;
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    display: flex;
+    justify-content: center;
+    border-radius: 1.25rem;
+}
+
+.createdTasksBox strong {
+    color: var(--blue);
+}
+
+.doneTasksBox strong {
+    color: var(--purple);
+}
+
+.emptyBox {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 24.4rem; */
+
+    border-top: 1px solid var(--gray-400);
+
+
+    height: 1px;
+    width: 100%;
+
+    color: var(--gray-300);
+    line-height: 1.6;
+}
+
+.emptyBox img {
+    width: 56px;
+    height: 56px;
+    margin-top: 6.4rem;
+    margin-bottom: 1.6rem;
+}
+
+.emptyBox p:first-of-type  {
+    font-weight: bold;
+}
+
+.tasksBox {
+    margin-top: 2.4rem;
+}
